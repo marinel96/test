@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin: 40px auto;
+    color: #4839b9;
+    text-align: center;
+  }
+  
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  li {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    background-color: #333;
+    border: 1px solid #444;
+  }
+  
+  li h4 {
+    color: #313daf;
+    margin: 0;
+    text-transform: capitalize;
+  }
+  
+  li p {
+    color: #ccc;
+    margin: 8px 0 0;
+  }
+  
+  footer {
+    background: #444;
+    padding: 60px;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #ccc;
+    margin-bottom: 6px;
+  }
+  
+  input,
+  select {
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #ccc;
+    width: calc(100% - 22px); /* Adjust for border and padding */
+    margin-bottom: 10px;
+  }
+  
+  .field {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    color: #fff;
+    border: 0;
+    background: #0a58ff;
+    padding: 10px 20px;
+    min-width: 120px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #f96eb4;
+  }
+  
+  footer a {
+    text-align: center;
+    display: block;
+    color: #999;
+    margin-top: 40px;
+    font-size: 0.7em;
+    text-decoration: none;
+  }
